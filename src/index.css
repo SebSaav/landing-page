@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  background-color: #def2f0;
+}
+
+.active {
+  border: 2px;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  place-items: center;
+}
